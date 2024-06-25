@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Schere, Stein, Papier</title>
+</head>
+    <body>
+
+        <main>
+            
+            <form>
+                <label>✂️ 🗿 🧻 VS Computer</label>
+                <input id="rounds" type="number" placeholder="Wie viel Runden?">
+                <input type="submit" value="Spielen!">
+            </form>
+
+            <div>
+                <span>Computer:</span>
+                <span>Du:</span>
+            </div>
+
+            <div class="move-result">
+                    <span id="comp">?</span>
+                    <span id="move-res">?</span>
+                    <span id="user">?</span>
+            </div>
+            
+            
+            <div class="end hide">
+                <button id="again">Noch mal ?</button>
+            </div>
+            
+            <div class="ui">
+                <button value="0">✂️</button>
+                <button value="1">🗿</button>
+                <button value="2">🧻</button>
+            </div>
+            
+            <div class="results">
+            </div>
+            
+        </main>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
