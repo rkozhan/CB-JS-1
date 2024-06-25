@@ -58,11 +58,11 @@ ____
 
 - Regeln:
 
--- Schere gewinnt gegen Papier
+  - Schere gewinnt gegen Papier
 
--- Papier gewinnt gegen Stein
+  - Papier gewinnt gegen Stein
 
--- Stein gewinnt gegen die Schere
+  - Stein gewinnt gegen die Schere
 
 ## Anforderungen:
 
